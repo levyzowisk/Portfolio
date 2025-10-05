@@ -20,13 +20,14 @@
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
+/* Global Colors - TEMA ESCURO */
 :root { 
-  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #314862; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #13447f; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #065cc2; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+  --background-color: #11161e;    /* Fundo principal escuro */
+  --default-color: #e8ecef;       /* Cor do texto principal (claro) */
+  --heading-color: #ffffff;       /* Cor dos títulos (branco) */
+  --accent-color: #388bfd;        /* Cor de destaque (um azul mais vivo) */
+  --surface-color: #1c2331;       /* Fundo de cards e caixas (um pouco mais claro que o fundo principal) */
+  --contrast-color: #ffffff;       /* Cor do texto sobre fundos de destaque (continua branco) */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
@@ -236,7 +237,7 @@ h6 {
   align-items: center;
   justify-content: center;
   padding: 0;
-  background: color-mix(in srgb, var(--contrast-color), transparent 90%);
+  background-color: rgb(147, 144, 144);
   color: var(--contrast-color);
   margin: 0 2px;
   border-radius: 50%;
@@ -710,7 +711,7 @@ section,
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background-color: var(--surface-color);
+  background-color: var(--nav-color);
   color: var(--default-color);
   text-decoration: none;
   transition: all 0.3s ease;
