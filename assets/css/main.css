@@ -208,7 +208,9 @@ h6 {
 .navmenu .profile-img img {
   margin: 15px auto;
   display: block;
+  object-fit: cover;
   width: 160px;
+  height: 160px;
   border: 8px solid color-mix(in srgb, var(--contrast-color), transparent 85%);
 }
 
