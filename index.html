@@ -505,7 +505,7 @@
 
           </ul>
 
-          <div class="row g-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
+          <div class="row g-6   isotope-container" data-aos="fade-up" data-aos-delay="300">
 
             <div class="col-xl-3 col-lg-4 col-md-6 portfolio-item isotope-item filter-ui">
               <article class="portfolio-entry">
@@ -513,7 +513,6 @@
                   <img src="assets/img/portfolio/preview.png" class="img-fluid" alt="" loading="lazy">
                   <div class="entry-overlay">
                     <div class="overlay-content">
-                      <div class="entry-meta">Desenvolvimento</div>
                       <h3 class="entry-title">Sistema de alocação APP</h3>
                       <div class="entry-links">
                         <a href="assets/img/portfolio/bgtech2.png" class="glightbox" data-gallery="portfolio-gallery-ui" data-glightbox="title: Aplicação que visa fazer o gerenciamento de alocação de candidatos para um determinado concurso.;">
@@ -533,7 +532,6 @@
                   <img src="assets/img/portfolio/eventdev2.png" class="img-fluid" alt="" loading="lazy">
                   <div class="entry-overlay">
                     <div class="overlay-content">
-                      <div class="entry-meta">Desenvolvimento</div>
                       <h3 class="entry-title">Eventos de tecnologia APP</h3>
                       <div class="entry-links">
                         <a href="assets/img/portfolio/evendev1.png" class="glightbox" data-gallery="portfolio-gallery-development" data-glightbox="title: Aplicação que visa centralizar eventos de tecnologia do ceará.; ">
@@ -851,8 +849,8 @@
 
       <!-- Section Title -->
       <div class="container section-title">
-        <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Contato</h2>
+
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -860,17 +858,15 @@
         <div class="row g-4 g-lg-5">
           <div class="col-lg-5">
             <div class="info-box" data-aos="fade-up" data-aos-delay="200">
-              <h3>Contact Info</h3>
-              <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis.</p>
+              <h3>Informações</h3>
 
               <div class="info-item" data-aos="fade-up" data-aos-delay="300">
                 <div class="icon-box">
                   <i class="bi bi-geo-alt"></i>
                 </div>
                 <div class="content">
-                  <h4>Our Location</h4>
-                  <p>A108 Adam Street</p>
-                  <p>New York, NY 535022</p>
+                  <h4>Localização</h4>
+                  <p>Fortaleza - Ceará</p>
                 </div>
               </div>
 
@@ -879,9 +875,8 @@
                   <i class="bi bi-telephone"></i>
                 </div>
                 <div class="content">
-                  <h4>Phone Number</h4>
-                  <p>+1 5589 55488 55</p>
-                  <p>+1 6678 254445 41</p>
+                  <h4>Telefone</h4>
+                  <p>(85) 994319758</p>
                 </div>
               </div>
 
@@ -890,9 +885,8 @@
                   <i class="bi bi-envelope"></i>
                 </div>
                 <div class="content">
-                  <h4>Email Address</h4>
-                  <p>info@example.com</p>
-                  <p>contact@example.com</p>
+                  <h4>Email</h4>
+                  <p>85988919231levy@gmail.com</p>
                 </div>
               </div>
             </div>
@@ -900,34 +894,33 @@
 
           <div class="col-lg-7">
             <div class="contact-form" data-aos="fade-up" data-aos-delay="300">
-              <h3>Get In Touch</h3>
-              <p>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis.</p>
+              <h3>Entre em contato</h3>
 
-              <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <form action="https://api.web3forms.com/submit" id="contact-form" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+                <input type="hidden" name="access_key" value="8f79ebf7-0c70-44ca-a753-33962e35b3d9">
+
                 <div class="row gy-4">
 
                   <div class="col-md-6">
-                    <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                    <input type="text" name="name" class="form-control" placeholder="Seu nome" required="">
                   </div>
 
                   <div class="col-md-6 ">
-                    <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                    <input type="email" class="form-control" name="email" placeholder="Seu Email" required="">
                   </div>
 
                   <div class="col-12">
-                    <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                    <input type="text" class="form-control" name="subject" placeholder="Assunto" required="">
                   </div>
 
                   <div class="col-12">
-                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                    <textarea class="form-control" name="message" rows="6" placeholder="Mensagem" required=""></textarea>
                   </div>
 
                   <div class="col-12 text-center">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                   <div id="form-result"></div>
 
-                    <button type="submit" class="btn">Send Message</button>
+                    <button type="submit" class="btn">Enviar Mensagem</button>
                   </div>
 
                 </div>
@@ -948,20 +941,13 @@
 
     <div class="container">
       <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">Style</strong> <span>All Rights Reserved</span></p>
-      </div>
-      <div class="social-links d-flex justify-content-center">
-        <a href=""><i class="bi bi-twitter-x"></i></a>
-        <a href=""><i class="bi bi-facebook"></i></a>
-        <a href=""><i class="bi bi-instagram"></i></a>
-        <a href=""><i class="bi bi-linkedin"></i></a>
-      </div>
+
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you've purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="https://www.linkedin.com/in/levy-sousa-8005791b5/" target="_blank">Levy Sousa</a>
       </div>
     </div>
 
@@ -984,6 +970,7 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script src="forms/contact.js"></script>
 
 </body>
 
