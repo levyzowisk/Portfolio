@@ -1769,6 +1769,9 @@ section,
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
+.title-portf {
+  margin: 0px 105px;
+}
 .portfolio .portfolio-filters {
   display: flex;
   justify-content: center;
